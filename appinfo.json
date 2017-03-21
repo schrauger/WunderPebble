@@ -29,57 +29,6 @@
                 "type": "font"
             },
             {
-                "file": "images/splash-round.png",
-                "name": "IMAGES_SPLASH_ROUND_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/loading-round.png",
-                "name": "IMAGES_LOADING_ROUND_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/task-bg-round.png",
-                "name": "IMAGES_TASK_BG_ROUND_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/task-bg.png",
-                "name": "IMAGES_TASK_BG_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/icon.png",
-                "menuIcon": true,
-                "name": "IMAGES_ICON_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/splash.png",
-                "name": "IMAGES_SPLASH_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/inbox.png",
-                "name": "IMAGES_INBOX_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/folder.png",
-                "name": "IMAGES_FOLDER_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/group.png",
-                "name": "IMAGES_GROUP_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/list.png",
-                "name": "IMAGES_LIST_PNG",
-                "type": "bitmap"
-            },
-            {
                 "file": "images/week.png",
                 "name": "IMAGES_WEEK_PNG",
                 "type": "bitmap"
@@ -90,18 +39,8 @@
                 "type": "bitmap"
             },
             {
-                "file": "images/star.png",
-                "name": "IMAGES_STAR_PNG",
-                "type": "bitmap"
-            },
-            {
                 "file": "images/task.png",
                 "name": "IMAGES_TASK_PNG",
-                "type": "bitmap"
-            },
-            {
-                "file": "images/loading.png",
-                "name": "IMAGES_LOADING_PNG",
                 "type": "bitmap"
             },
             {
@@ -110,13 +49,13 @@
                 "type": "bitmap"
             },
             {
-                "file": "images/task-done.png",
-                "name": "IMAGES_TASK_DONE_PNG",
+                "file": "images/task-star.png",
+                "name": "IMAGES_TASK_STAR_PNG",
                 "type": "bitmap"
             },
             {
-                "file": "images/task-star.png",
-                "name": "IMAGES_TASK_STAR_PNG",
+                "file": "images/task-done.png",
+                "name": "IMAGES_TASK_DONE_PNG",
                 "type": "bitmap"
             },
             {
@@ -125,13 +64,74 @@
                 "type": "bitmap"
             },
             {
-                "file": "images/done.png",
-                "name": "IMAGES_DONE_PNG",
+                "file": "images/task-bg.png",
+                "name": "IMAGES_TASK_BG_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/task-bg-round.png",
+                "name": "IMAGES_TASK_BG_ROUND_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/star.png",
+                "name": "IMAGES_STAR_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/splash.png",
+                "name": "IMAGES_SPLASH_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/splash-round.png",
+                "name": "IMAGES_SPLASH_ROUND_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/loading.png",
+                "name": "IMAGES_LOADING_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/loading-round.png",
+                "name": "IMAGES_LOADING_ROUND_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/list.png",
+                "name": "IMAGES_LIST_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/inbox.png",
+                "name": "IMAGES_INBOX_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "IMAGES_ICON_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/group.png",
+                "name": "IMAGES_GROUP_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/folder.png",
+                "name": "IMAGES_FOLDER_PNG",
                 "type": "bitmap"
             },
             {
                 "file": "images/error.png",
                 "name": "IMAGES_ERROR_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/done.png",
+                "name": "IMAGES_DONE_PNG",
                 "type": "bitmap"
             }
         ]
@@ -143,7 +143,7 @@
         "basalt",
         "chalk"
     ],
-    "uuid": "4513f443-59f3-4cf6-a9ca-1c23b18e1224",
+    "uuid": "b88e14ff-eedd-4868-8096-0794b76d9433",
     "versionCode": 1,
     "versionLabel": "2.1",
     "watchapp": {
