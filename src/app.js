@@ -1,11 +1,12 @@
 /**
  * WunderPebble
  * By: Jahdai Cintron
- * http://wunderpebble.com
+ * Updated by: Stephen Schrauger
+ * http://wunderpebble.pebble.schrauger.com
  */
 // DEBUGGING
 var DEBUG = true;
-var VERSION = 2.0;
+var VERSION = 2.1;
 
 // INCLUDES
 var UI = require( "ui" );
@@ -16,13 +17,13 @@ var Feature = require( 'platform/feature' );
 
 // GLOBAL VARIABLES
 var api = "https://a.wunderlist.com/api/v1";
-var clientID = "5e2f2e075f8aa1a5f94d";
+var clientID = "619c2f8bfd94ce3ae87b";
 var header = {
 	"X-Access-Token": Settings.option( "token" ),
 	"X-Client-ID": clientID,
 	contentType: "application/json"
 };
-var reporting = "https://wunderpebble.com/config/report.php";
+var reporting = "https://wunderpebble.pebble.schrauger.com/config/report.php";
 var taskItems = 0;
 var shares = [];
 var folders = {};
@@ -45,7 +46,7 @@ var timeZone;
 // CONFIGURATION
 Settings.config(
 	{
-		url: "https://wunderpebble.com/config/",
+		url: "https://wunderpebble.pebble.schrauger.com/config/",
 		autoSave: true,
 		hash: true
 	},
